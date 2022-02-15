@@ -22,7 +22,9 @@
       }
     </style>
     <script>
-       //window.location.replace("exp://127.0.0.1:19000/CompleteProviderSetup");
+       var redirect = "exp://127.0.0.1:19000/--/CompleteProviderSetup" + window.location.search;
+       alert(redirect);
+       window.location.replace(redirect);
     </script>
     <title>PERSONAL - CompleteProviderSetup</title>
     <meta charset="UTF-8">
