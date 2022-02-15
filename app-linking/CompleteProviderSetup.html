@@ -28,7 +28,7 @@
     </style>
     <script>
       window.addEventListener('load', function () {
-         var redirect = "exp://127.0.0.1:19000/--/AddProviderConnection" + window.location.search;
+         var redirect = "exp://127.0.0.1:19000/--/" + window.location.search;
          var link = document.getElementById("redirect-link");
          link.setAttribute('href', redirect);
          document.getElementById("url").innerHTML = redirect;
@@ -42,7 +42,7 @@
     <div id="content">  
       <img id="logo" src="/resources/logo-white.png">
       <div class="white">Redirecting you to provider setup in the PERSONAL app. Please click the link below to return to the app.</div>
-      <a id="redirect-link" class="white" href="exp://127.0.0.1:19000/--/AddProviderConnection">Click here to return to your app.</a>
+      <a id="redirect-link" class="white" href="exp://127.0.0.1:19000/--/">Click here to return to your app.</a>
       <div id="url"></div> 
     </div>
   </body>
