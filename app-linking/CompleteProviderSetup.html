@@ -25,8 +25,9 @@
     </style>
     <script>
        var redirect = "exp://127.0.0.1:19000/--/CompleteProviderSetup" + window.location.search;
-       alert(redirect);
-       window.location.replace(redirect);
+       var link = document.getElementById("redirect-link");
+       link.setAttribute('href', redirect);
+       //window.location.replace(redirect);
     </script>
     <title>PERSONAL - CompleteProviderSetup</title>
     <meta charset="UTF-8">
@@ -34,8 +35,8 @@
   <body>
     <div id="content">  
       <img id="logo" src="/resources/logo-white.png">
-      <div class="white">Redirecting you to provider setup in the PERSONAL app. Please wait a moment.</div>
-      <a class="white" href="exp://127.0.0.1:19000/--/CompleteProviderSetup">Click here to return to your app.</a>
+      <div class="white">Redirecting you to provider setup in the PERSONAL app. Please click the link below to return to the app.</div>
+      <a id="redirect-link" class="white" href="exp://127.0.0.1:19000/--/CompleteProviderSetup">Click here to return to your app.</a>
     </div>
   </body>
 </html>
