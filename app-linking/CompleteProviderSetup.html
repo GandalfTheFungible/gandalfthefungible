@@ -24,10 +24,12 @@
       
     </style>
     <script>
-       var redirect = "exp://127.0.0.1:19000/--/p" + window.location.search;
-       var link = document.getElementById("redirect-link");
-       link.setAttribute('href', redirect);
-       //window.location.replace(redirect);
+      window.addEventListener('load', function () {
+         var redirect = "exp://127.0.0.1:19000/--/p" + window.location.search;
+         var link = document.getElementById("redirect-link");
+         link.setAttribute('href', redirect);
+         //window.location.replace(redirect);
+      });
     </script>
     <title>PERSONAL - CompleteProviderSetup</title>
     <meta charset="UTF-8">
