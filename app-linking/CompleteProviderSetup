@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      body {
+        font: 400 0.875rem/1.25rem Roboto,Arial,sans-serif;
+        background: linear-gradient(#4b1958, #000000);
+        color: lightgray;
+        text-align: center;
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      #logo {
+         margin-top: 300px;  
+      }
+      .white {
+          color: white 
+      }
+      html {
+          height: 100%;
+      }
+    </style>
+    <script>window.location.replace("personal://CompleteProviderSetup");</script>
+    <title>PERSONAL - Static Content</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="content">  
+      <img id="logo" src="resources/logo-white.png">
+      <div class="white">Redirecting you to provider setup in the PERSONAL app. Please wait a moment.</div>
+    </div>
+  </body>
+</html>
