@@ -1,1 +1,9 @@
-
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "PERSONAL",
+    "package_name": "com.gandalfthefungible.personal",
+    "sha256_cert_fingerprints":
+    ["11:C8:A5:F7:BD:D6:91:62:9E:E9:9B:C8:01:58:F5:5B:C5:C6:76:C2:67:A8:A3:27:09:CC:CA:39:02:92:9D:F8"]
+  }
+}]
